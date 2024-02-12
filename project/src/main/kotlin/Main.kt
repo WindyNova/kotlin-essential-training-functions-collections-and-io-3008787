@@ -1,4 +1,5 @@
 
 fun main() {
-    println("Hello World")
+    printstuff("ok ")
 }
+fun printstuff(stuff: String) = println(stuff)
