@@ -1,5 +1,5 @@
 
 fun main() {
-    printstuff("ok ")
+    printstuff(myMan = "okok")
 }
-fun printstuff(stuff: String) = println(stuff)
+fun printstuff(stuff: String = "Hello",myMan:String = "Namea") = println(stuff+myMan)
